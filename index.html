@@ -8,17 +8,17 @@
   <body>
     <!-- intestazione pagina -->
     <header>
-      <h1>Il mio viaggio a Londra</h1>
-      <img src="img/pexels-bill-emrich-230794-0.jpg" alt="ruota panoramica" />
-      <img src="img/pexels-bill-emrich-230794-1.jpg" alt="london bridge" />
-      <img src="img/pexels-bill-emrich-230794-2.jpg" alt="big ben" />
+      <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;" >Il mio viaggio a Londra</h1>
+      <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London Eye" title="London Eye" />
+      <img src="img/pexels-bill-emrich-230794-1.jpg" alt="London bridge" title="London bridge"/>
+      <img src="img/pexels-bill-emrich-230794-2.jpg" alt="Big Ben" title="Big Ben"/>
     </header>
     <hr>
     <main>
         <section>
-            <h2>Le mie spese</h2>
+            <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;">Le mie spese</h2>
             <table>
-                <tr>
+                <tr style="color: red;">
                     <!-- valore delle colonne  -->
                     <th>Numero</th>
                     <th>Descrizione</th>
@@ -53,33 +53,33 @@
         </section>
         <hr>
         <section>
-            <h2>Cose da fare</h2>
+            <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;">Cose da fare</h2>
             <!-- lista non numerica -->
-            <ul>
-                <li>Visitare la Tower of London &cross;</li>
-                <li>Visitare Greenwich &#10003</li>
-                <li>Ascoltare un artista di strada a Covent Garden &#10003</li>
-                <li>Mangiare il tipico Fish and Chips inglese &cross;</li>
+            <ul style="list-style-type: square;">
+                <li><span>Visitare la Tower of London</span> <span style="color: red;">&cross;</span></li>
+                <li><span style="text-decoration: line-through;">Visitare Greenwich</span><span style="color: green;"> &#10003</span></li>
+                <li><span style="text-decoration: line-through;">Ascoltare un artista di strada a Covent Garden</span><span style="color: green;">&#10003</span></li>
+                <li><span>Mangiare il tipico Fish and Chips inglese</span><span style="color: red;"> &cross;</span></li>
             </ul>
         </section>
         <hr>
         <section>
-          <h2>Info utili:</h2>
+          <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: darkblue;">Info utili:</h2>
           <!-- lista numerica contenente una lista non numerica -->
-          <ol>
-            <li> Numeri utili di emergenza
-                <ul>
-                    <li><strong>999</strong> - Emergenze</li>
-                    <li><strong>101</strong> - Polizia</li>
-                    <li><strong>111</strong> - Assistenza Medica</li>       
+          <ol style="list-style-type: upper-roman;">
+            <li> <span style="text-decoration: underline;">Numeri utili di emergenza</span>
+                <ul style="list-style-type: none;">
+                    <li><strong style="color: red;">999</strong> - Emergenze</li>
+                    <li><strong style="color: blue;">101</strong> - Polizia</li>
+                    <li><strong style="color: green;">111</strong> - Assistenza Medica</li>       
                 </ul>
-            <li>Hotel
+            <li><span style="text-decoration: underline;">Hotel</span>
                 <ul>
                     <li><strong>Nome Hotel</strong>: Buckingham Palace</li>
                     <li><strong>Indirizzo Hotel</strong>:Westminster,Londra SW1A 1AA, Regno Unito</li>              
                 </ul>
-            <li> Aereo
-                <ul>
+            <li><span style="text-decoration: underline;">Aereo</span> 
+                <ul style="list-style-type: disc;">
                     <li><strong>999</strong>: Y1234X, ore 9.30 da Milano Malpensa</li>
                     <li><strong>101</strong>: Y5678X, ore 18.30 da London Heathrow</li>          
                 </ul>
@@ -93,12 +93,14 @@
       <img
         src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
         alt="Millennium Bridge"
+        title="Millennium Bridge"
       />
       <img
         src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
-        alt="London bridge"/>
+        alt="London bridge"
+        title="London bridge"/>
       <br />
-      <a href="https://www.expedia.it/Londra.d178279.Viaggi-Vacanze">Acquista il biglietto</a>
+      <a href="https://www.expedia.it/Londra.d178279.Viaggi-Vacanze" target="_blank">Acquista il biglietto</a>
     </footer>
   </body>
 </html>
